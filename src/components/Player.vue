@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-10-21 13:59:32
- * @LastEditTime: 2020-10-22 11:35:49
+ * @LastEditTime: 2020-10-22 16:03:11
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \测试文件\hk-video-test\src\components\video.vue
@@ -59,7 +59,7 @@ export default {
             fullscreenToggle: true, //全屏按钮
           },
           errorDisplay: true,
-          posterImage: true,
+          posterImage: false,
           bigPlayButton: true,
           textTrackDisplay: true,
         };

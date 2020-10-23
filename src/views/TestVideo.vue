@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-10-21 14:16:36
- * @LastEditTime: 2020-10-22 10:59:04
+ * @LastEditTime: 2020-10-22 16:01:05
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \测试文件\hk-video-test\src\views\TestVideo.vue
@@ -9,12 +9,12 @@
 <template>
   <el-container>
     <el-header>
-      <el-button @click="setChannel(1)">视频1</el-button>
-      <el-button @click="setChannel(2)" type="primary">视频2</el-button>
-      <el-button @click="setChannel(3)" type="success">视频3</el-button>
-      <el-button @click="setChannel(4)" type="info">视频4</el-button>
-      <el-button @click="setChannel(5)" type="warning">视频5</el-button>
-      <el-button @click="setChannel(6)" type="danger">视频6</el-button>
+      <el-button @click="setChannel('//vjs.zencdn.net/v/oceans.mp4')">视频1</el-button>
+      <el-button @click="setChannel('2')" type="primary">视频2</el-button>
+      <el-button @click="setChannel('//vjs.zencdn.net/v/oceans.mp4')" type="success">视频3</el-button>
+      <el-button @click="setChannel('//vjs.zencdn.net/v/oceans.mp4')" type="info">视频4</el-button>
+      <el-button @click="setChannel('//vjs.zencdn.net/v/oceans.mp4')" type="warning">视频5</el-button>
+      <el-button @click="setChannel('//vjs.zencdn.net/v/oceans.mp4')" type="danger">视频6</el-button>
     </el-header>
     <el-main>
       <el-row>
@@ -42,7 +42,8 @@ export default {
   },
   methods: {
     setChannel(val){
-       this.$message("通道"+val);
+       this.$message("通道"+val)
+       this.sources.src=val
     }
   },
 };
