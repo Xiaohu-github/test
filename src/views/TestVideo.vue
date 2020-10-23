@@ -1,9 +1,9 @@
 <!--
- * @Author: your name
+ * @Author: Hubotao
  * @Date: 2020-10-21 14:16:36
- * @LastEditTime: 2020-10-22 16:01:05
+ * @LastEditTime: 2020-10-23 10:46:36
  * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
+ * @Description: Video.Js Test
  * @FilePath: \测试文件\hk-video-test\src\views\TestVideo.vue
 -->
 <template>
