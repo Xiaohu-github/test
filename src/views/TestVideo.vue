@@ -1,10 +1,11 @@
 <!--
  * @Author: Hubotao
  * @Date: 2020-10-21 14:16:36
- * @LastEditTime: 2020-10-23 10:46:36
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2021-02-01 15:39:56
+ * @LastEditors: HuBotao
  * @Description: Video.Js Test
  * @FilePath: \测试文件\hk-video-test\src\views\TestVideo.vue
+ todo：视频解析接口解析出来的是什么？可否利用？
 -->
 <template>
   <el-container>
@@ -36,7 +37,10 @@ export default {
     return {
     sources:{
       type: "video/mp4",
-      src:'//vjs.zencdn.net/v/oceans.mp4'
+      src:'https://upos-sz-mirrorks3.bilivideo.com/upgcxcode/90/90/109149090/109149090-1-208.mp4?e=ig8euxZM2rNcNbKV7bdVhwdl7wdjhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&nbs=1&deadline=1612172159&gen=playurl&os=ks3bv&oi=978800370&trid=5b2532c559a0465ea475d6b593e2b865T&platform=html5&upsig=5ea5b3963b8121c4f8120c0ed693b2d3&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=524602686&orderid=0,1&logo=80000000'
+      // type: "application/x-mpegURL",
+      // src:'http://hls01open.ys7.com/openlive/ba8104b82512462097acd537d664dae8.m3u8'
+
     }
     }
   },
